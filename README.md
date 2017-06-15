@@ -12,7 +12,7 @@ https://github.com/elastic/elasticsearch/issues/22912
 To restore the old behaviour of the old completion suggester for new
 indexes created with Elasticsearch 5.x use the following process:
 
-The plugin compiles with Elasticsearch 5.3.0, but should also work with
+The plugin compiles with Elasticsearch 5.4.1, but should also work with
 earlier or later versions. Just edit the POM file, compile, and create
 the package: `mvn clean install`
 
